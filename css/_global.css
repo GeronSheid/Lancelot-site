@@ -1,0 +1,82 @@
+/* noto-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-sans-v27-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/noto-sans-v27-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/noto-sans-v27-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/noto-sans-v27-latin_cyrillic-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/noto-sans-v27-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/noto-sans-v27-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/noto-sans-v27-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/noto-sans-v27-latin_cyrillic-500.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-800 - latin_cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/noto-sans-v27-latin_cyrillic-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/noto-sans-v27-latin_cyrillic-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/noto-sans-v27-latin_cyrillic-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-800.woff') format('woff'), /* Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/noto-sans-v27-latin_cyrillic-800.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-900 - latin_cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/noto-sans-v27-latin_cyrillic-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/noto-sans-v27-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/noto-sans-v27-latin_cyrillic-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-900.woff') format('woff'), /* Modern Browsers */
+       url('fonts/noto-sans-v27-latin_cyrillic-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/noto-sans-v27-latin_cyrillic-900.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100%;
+  display: grid;
+  grid-template: minmax(100px, auto) 1fr minmax(100px, auto) / 1fr;
+  grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}

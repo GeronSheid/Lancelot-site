@@ -1,0 +1,15 @@
+.about {
+  display: grid;
+  grid-template: 1fr/ 1fr minmax(auto, 1440px) 1fr;
+}
+
+.about__wrap {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  justify-items: center;
+}
+
+.about__img {
+  border-radius: 50%;
+}
